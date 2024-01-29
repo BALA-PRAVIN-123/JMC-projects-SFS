@@ -6,7 +6,8 @@
 
 }
 body{
-    background-color: blueviolet;
+    background:url(./imgs/simple-simple-background-primary-colors-minimalism-wallpaper-preview.jpg);
+    background-size: cover;
 }
 form{
     text-align: center;
