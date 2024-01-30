@@ -49,7 +49,6 @@
 }
 #nav-list li a:hover{
     color: black;
-    font-size:22px;
     border-bottom: 2px red solid;
     padding-bottom: 36px;
 }
