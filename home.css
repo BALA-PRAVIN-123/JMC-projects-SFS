@@ -52,6 +52,7 @@
     transition: 1s;
     border-bottom: 2px red solid;
     padding-bottom: 36px;
+    
 }
 #nav-list li:hover{
     color: #29f700;
