@@ -8,9 +8,19 @@
     <style>
       input{
           width: 300px;
+          box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+          border: 1px white solid;
+          border-left: 10px gray solid;
       }
       #feedback{
           height: 80px;
+      }
+      input:hover{
+        border-left: 10px black solid;
+      }
+      th:hover{
+        color: black !important;
+        background-color: skyblue !important;
       }
   </style>
     <title>JMS-feedback</title>
@@ -37,12 +47,12 @@
     <!--table feedback-->
     <table id="newt" class="table table-bordered  " style="margin-top: 30px; border: 2px black solid;">
       <div class="col ">
-        <th class="text-center bg-primary" style=" border: 2px black solid;">Name</th>
-        <th class="text-center bg-primary" style=" border: 2px black solid;">Department</th>
-        <th class="text-center bg-primary" style=" border: 2px black solid;">Register No</th>
-        <th class="text-center bg-primary" style=" border: 2px black solid;">Email Id</th>
-        <th class="text-center col-md-3 bg-primary" style=" border: 2px black solid;">Feedback</th>
-        <th class="text-center bg-primary" style=" border: 2px black solid;">Changes</th>
+        <th class="text-center bg-primary text-white" style=" border: 2px black solid;">Name</th>
+        <th class="text-center bg-primary text-white" style=" border: 2px black solid;">Department</th>
+        <th class="text-center bg-primary text-white" style=" border: 2px black solid;">Register No</th>
+        <th class="text-center bg-primary text-white" style=" border: 2px black solid;">Email Id</th>
+        <th class="text-center col-md-3 bg-primary text-white" style=" border: 2px black solid;">Feedback</th>
+        <th class="text-center bg-primary text-white" style=" border: 2px black solid;">Changes</th>
   
        <tr id="datar" style=" border: 2px black solid;">
           <td id="tn" style=" border: 2px black solid;"></td>
